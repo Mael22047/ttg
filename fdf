@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Escape School</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 30px;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    #game {
+      max-width: 600px;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+
+<div id="game">
+  <h1>🏫 Escape School</h1>
+  <p id="story">Tu es coincé au lycée après les cours. Les portes sont fermées. Que fais-tu ?</p>
+  <div id="choices">
+    <button onclick="choic
